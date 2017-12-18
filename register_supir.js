@@ -13,7 +13,7 @@ var usersRef = firebase.database();
 // save contact
 $('.addValue').on("click", function( event ) {  
   event.preventDefault();
-  if( $('#name').val() != '' || $('#email').val() != '' ){
+  if( $('#nama').val() != '' || $('#username').val() != '' || $('#password').val() != '' ){
     usersRef.ref('user/').push({
       nama: $('#nama').val(),
       username: $('#username').val(),

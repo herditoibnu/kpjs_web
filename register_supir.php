@@ -12,7 +12,7 @@
 <body>
   <div class="container">
     <a href="index.php" class="btn btn-default" style="margin-top: 10px;">List Angkot</a>
-    <a href="register.php" class="btn btn-success" style="margin-top: 10px;">Pendaftaran Supir</a>
+    <a href="register_supir.php" class="btn btn-success" style="margin-top: 10px;">Pendaftaran Supir</a>
     <h2>Pendaftaran Sopir</h2>
     <hr/>
     <div class="row">
