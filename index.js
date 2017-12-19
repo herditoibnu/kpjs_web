@@ -59,7 +59,13 @@ angkotsRef.ref('angkot/').on('value', function(snapshot){
       var val = data.val();
       var sample = [];
       
-      var jml = Object.keys(val.penumpangs).length;
+      var jml;
+      if(val.penumpangs === undefined) {
+        jml = 0;
+      }
+      else {
+        jml = Object.keys(val.penumpangs).length;
+      }
       content +='<tr>';
       content += '<td>' + val.id + '</td>';
       content += '<td>' + val.lat + '</td>';
